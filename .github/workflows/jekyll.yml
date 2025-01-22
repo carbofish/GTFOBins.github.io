@@ -35,7 +35,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1' # 如果需要支持 listen，则升级其版本
+          ruby-version: '2.2' # 如果需要支持 listen，则升级其版本
           bundler-cache: false # 强制清理缓存，确保依赖更新
       - name: Install dependencies
         run: |
